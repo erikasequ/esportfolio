@@ -6,7 +6,7 @@ import Projects from "../Components/Projects"
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
       <Bio />
       <Projects />
       </div>
