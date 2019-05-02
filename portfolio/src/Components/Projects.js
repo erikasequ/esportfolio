@@ -8,10 +8,10 @@ import peperosso from "../Assets/peperosso.png"
 const Projects = () => {
     return (
         <div className="Projects">
-            <a href="https://thehateugive.netlify.com/"><img src={thehate} /></a>
-            <a href="https://dotboxes.netlify.com/index.html"><img src={dotboxes} /></a>
-            <a href="http://thedailyaxis.surge.sh/"><img src={dailyaxis} /></a>
-            <a href="https://peperossosocial.herokuapp.com/"><img src={peperosso} /></a>
+            <a href="https://thehateugive.netlify.com/" target="_blank"><img src={thehate} /></a>
+            <a href="https://dotboxes.netlify.com/index.html" target="_blank"><img src={dotboxes} /></a>
+            <a href="http://thedailyaxis.surge.sh/" target="_blank"><img src={dailyaxis} /></a>
+            <a href="https://peperossosocial.herokuapp.com/" target="_blank"><img src={peperosso} /></a>
         </div>
     );
 }
