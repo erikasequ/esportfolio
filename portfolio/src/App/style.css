@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Shrikhand');
-/* 
+
 .App{
-    background: url(../Assets/bg.jpg);
-} */
+    width: 800px;
+    display: flex;
+}
 .Bio, .Projects{
     width: 900px;
     margin: 0 auto;
@@ -10,10 +11,20 @@
 .Erika{
     font-family: 'Shrikhand';
     font-size: 80px;
-    writing-mode: sideways-lr;
-    text-orientation: sideways-right;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
     background: url(../Assets/bg.jpg);
     margin-top: 25px;
+}
+.Menu{
+    /* position: absolute; */
+    margin-left: 200px;
+    margin-top: 50px;
+    border-color: black;
+    background: black;
+    border-style: solid;
+    color: white;
 }
 .Bio{
     font-family: 'Roboto', sans-serif;
