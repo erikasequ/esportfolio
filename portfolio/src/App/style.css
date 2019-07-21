@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Shrikhand');
-
+/* 
 .App{
     background: url(../Assets/bg.jpg);
-}
+} */
 .Bio, .Projects{
     width: 900px;
     margin: 0 auto;
 }
-.Name{
+.Erika{
     font-family: 'Shrikhand';
-    font-size: 40px;
+    font-size: 80px;
+    writing-mode: sideways-lr;
+    text-orientation: sideways-right;
+    background: url(../Assets/bg.jpg);
+    margin-top: 25px;
 }
 .Bio{
     font-family: 'Roboto', sans-serif;
